@@ -1,0 +1,74 @@
+{
+    "accuracy": 0.9953596287703016,
+    "precision": 1.0,
+    "recall": 0.9259259259259259,
+    "f1_score": 0.9615384615384616,
+    "roc_auc": 1.0,
+    "confusion_matrix": [
+        [
+            404,
+            0
+        ],
+        [
+            2,
+            25
+        ]
+    ],
+    "feature_importances": [
+        {
+            "feature": "amount",
+            "importance": 0.32904997132480657
+        },
+        {
+            "feature": "amount_deviation_score",
+            "importance": 0.27810589680247655
+        },
+        {
+            "feature": "hour",
+            "importance": 0.14896999468560107
+        },
+        {
+            "feature": "is_night",
+            "importance": 0.06458793069028601
+        },
+        {
+            "feature": "category",
+            "importance": 0.05158763665702951
+        },
+        {
+            "feature": "payment_method",
+            "importance": 0.03021493018348665
+        },
+        {
+            "feature": "is_weekend",
+            "importance": 0.030167760283386514
+        },
+        {
+            "feature": "location",
+            "importance": 0.020330471819609102
+        },
+        {
+            "feature": "vendor",
+            "importance": 0.019004456377014978
+        },
+        {
+            "feature": "emp_hist_mean",
+            "importance": 0.010646075750919148
+        },
+        {
+            "feature": "emp_hist_std",
+            "importance": 0.007889643837057427
+        },
+        {
+            "feature": "department",
+            "importance": 0.007379554053053707
+        },
+        {
+            "feature": "role",
+            "importance": 0.0020656775352727638
+        }
+    ],
+    "dataset_size": 1721,
+    "fraud_count": 106,
+    "clean_count": 1615
+}
